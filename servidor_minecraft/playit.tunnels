@@ -1,0 +1,61 @@
+{
+  "tcp_alloc": {
+    "allowed": 4,
+    "claimed": 2,
+    "desired": 2
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "nice-aspect.gl.joinmc.link",
+          "assigned_srv": "nice-aspect.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "df61ff42-4cd5-41a0-945b-00293a620f58",
+          "ip_hostname": "211.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 15214,
+          "port_start": 15213,
+          "region": "global",
+          "static_ip4": "147.185.221.211",
+          "static_ip6": "2602:fbaf:0:1::d3",
+          "tunnel_ip": "147.185.221.211"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-10-03T16:41:54.650378Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "70c21499-bc65-4011-81ea-c8c371d69920",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "b9222e3a-c11c-4f46-bf92-a7a0ad7f011e",
+          "agent_name": "ServidorLifecole",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 4,
+    "claimed": 0,
+    "desired": 0
+  }
+}
